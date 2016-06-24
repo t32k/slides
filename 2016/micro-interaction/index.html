@@ -1,0 +1,27 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../../src/talkie.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/monokai_sublime.min.css">
+</head>
+<body>
+
+<!-- Pure HTML style -->
+<section layout>
+  <h1>Slide 1</h1>
+</section>
+
+<!-- Markdown style ( require `type` attribute ) -->
+<script layout type="text/x-markdown">
+# Slide 2
+</script>
+
+<!-- You can also use `<template>` element -->
+<template layout type="text/x-markdown">
+# Slide 3
+</template>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+<script src="../../src/talkie.min.js"></script>
+<script>Talkie();</script>
+</body>
+</html>
